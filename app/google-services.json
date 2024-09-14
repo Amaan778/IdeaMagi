@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "624779137781",
+    "project_id": "fir-realtimerecycler",
+    "storage_bucket": "fir-realtimerecycler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624779137781:android:ac04ee78f2b3facd7e2bbc",
+        "android_client_info": {
+          "package_name": "com.app.firebaserealtimerecycler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRcDt7VcKaCh0EFpKwlzExwSb5HG9bZQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

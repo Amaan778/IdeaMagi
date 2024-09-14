@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realtime Form"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="9dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:layout_margin="9dp"
+        android:textSize="20dp"
+        android:hint="Enter name"
+        android:padding="9dp"/>
+
+    <EditText
+        android:id="@+id/lastnames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:layout_margin="9dp"
+        android:textSize="20dp"
+        android:hint="Enter last name"
+        android:padding="9dp"/>
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:layout_margin="9dp"
+        android:textSize="20dp"
+        android:hint="Adrress"
+        android:padding="9dp"/>
+
+    <EditText
+        android:id="@+id/pins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:layout_margin="9dp"
+        android:textSize="20dp"
+        android:hint="Pincode"
+        android:padding="9dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycler"
+        android:id="@+id/submit"
+        android:layout_margin="9dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/retrive"
+        android:layout_margin="9dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firestore"
+        android:id="@+id/fire"
+        android:layout_margin="9dp"/>
+
+</LinearLayout>
